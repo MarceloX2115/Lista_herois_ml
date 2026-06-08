@@ -134,7 +134,11 @@ Acesse: **http://localhost:5173**
 
 ## 📸 Prints do Sistema
 
-> Adicione os prints aqui
+## 📸 Prints do Sistema
+
+### Cadastro
+![Tela de Cadastro](<img width="1600" height="777" alt="1-Tela cadastro" src="https://github.com/user-attachments/assets/4d78cb1f-9567-46c6-b383-8a3f534c7784" />)
+
 
 ---
 
