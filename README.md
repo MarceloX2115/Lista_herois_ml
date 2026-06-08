@@ -134,8 +134,37 @@ Acesse: **http://localhost:5173**
 ## 📸 Prints do Sistema
 
 ### Cadastro
-![Tela de Cadastro]("https://github.com/user-attachments/assets/4d78cb1f-9567-46c6-b383-8a3f534c7784">)
+![Tela de Cadastro](https://github.com/user-attachments/assets/4d78cb1f-9567-46c6-b383-8a3f534c7784)
 
+### Login
+![Tela de Login](https://github.com/user-attachments/assets/2aa0a455-6f00-4e79-800b-575326b55492)
+
+### Tela Inicial - Visitante
+![Tela Inicial Visitante](https://github.com/user-attachments/assets/5bcce090-5d77-4cec-b73b-e8020e3d730e)
+
+### Heróis
+![Tela de Heróis](https://github.com/user-attachments/assets/bdf53bd7-85ec-4775-8621-10e5f9596f1d)
+
+### Tela Inicial - Moderador
+![Tela Inicial Moderador](https://github.com/user-attachments/assets/dbcbc159-395c-48f1-9533-7b57988e3653)
+
+### Herói - Detalhes
+![Herói Detalhes](https://github.com/user-attachments/assets/49764aaa-2b88-4ce2-814b-841b9957b0b4)
+
+### Criar Herói
+![Criar Herói](https://github.com/user-attachments/assets/0697d0f0-e4c7-4a0e-b15b-0cae833456ef)
+
+### Editar Herói
+![Editar Herói](https://github.com/user-attachments/assets/aa58d4b2-7002-4e7a-9213-c5ba827dcbbe)
+
+### Funções
+![Funções](https://github.com/user-attachments/assets/8e1b9d7a-763f-44e8-9a34-3570026be1b0)
+
+### Criar Função
+![Criar Função](https://github.com/user-attachments/assets/4a42e720-5259-453b-9140-710eda24e662)
+
+### Editar Função
+![Editar Função](https://github.com/user-attachments/assets/16cb13ca-191e-41b4-bdbf-176833ea2e2d)
 
 ---
 
