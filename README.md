@@ -4,11 +4,6 @@ Sistema web Full Stack para gerenciar heróis do Mobile Legends, com autenticaç
 
 ---
 
-## 👥 Integrantes da Equipe
-- 
-
----
-
 ## 🎯 Objetivo do Sistema
 Permite gerenciar heróis e funções do Mobile Legends com controle de acesso por cargo. Moderadores têm acesso total ao CRUD, enquanto visitantes apenas visualizam os heróis cadastrados.
 
@@ -51,6 +46,7 @@ ml-heroes-vue/
         │   └── ToastMsg.vue
         ├── views/
         │   ├── LoginView.vue
+        │   ├── CadastroView.vue
         │   ├── DashboardView.vue
         │   ├── HeroisView.vue
         │   └── FuncoesView.vue
@@ -70,7 +66,9 @@ ml-heroes-vue/
 | Coluna | Tipo | Descrição |
 |--------|------|-----------|
 | id | SERIAL | PK |
-| nome | VARCHAR | Nome do usuário |
+| nome | VARCHAR | Nome único do usuário |
+| email | VARCHAR | Email único |
+| senha | VARCHAR | Senha criptografada (bcrypt) |
 | cargo | VARCHAR | moderador ou visitante |
 | criado_em | TIMESTAMP | Data de criação |
 
@@ -118,7 +116,9 @@ Acesse: **http://localhost:5173**
 
 ## ✅ Funcionalidades Implementadas
 
-- [x] Login com escolha de cargo (Moderador / Visitante)
+- [x] Cadastro com email, senha e nome únicos
+- [x] Login com email e senha
+- [x] Senha criptografada com bcrypt
 - [x] Gerenciamento de estado com Pinia
 - [x] Proteção de rotas por cargo
 - [x] Dashboard com estatísticas
@@ -128,7 +128,7 @@ Acesse: **http://localhost:5173**
 - [x] Nomes de heróis validados via API do ML
 - [x] Imagens automáticas via API
 - [x] Componentização (Navbar, HeroCard, BaseModal, ToastMsg)
-- [x] 3 tabelas no banco de dados (+0,5 ponto extra)
+- [x] 3 tabelas no banco de dados
 
 ---
 
@@ -142,6 +142,7 @@ Acesse: **http://localhost:5173**
 
 | Método | Rota | Descrição |
 |--------|------|-----------|
+| POST | `/api/cadastro` | Cadastro de usuário |
 | POST | `/api/login` | Login do usuário |
 | GET | `/api/herois` | Lista heróis |
 | POST | `/api/herois` | Cadastra herói |
