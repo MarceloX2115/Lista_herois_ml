@@ -131,13 +131,10 @@ Acesse: **http://localhost:5173**
 - [x] 3 tabelas no banco de dados
 
 ---
-
-## 📸 Prints do Sistema
-
 ## 📸 Prints do Sistema
 
 ### Cadastro
-![Tela de Cadastro](<img width="1600" height="777" alt="1-Tela cadastro" src="https://github.com/user-attachments/assets/4d78cb1f-9567-46c6-b383-8a3f534c7784" />)
+![Tela de Cadastro]("https://github.com/user-attachments/assets/4d78cb1f-9567-46c6-b383-8a3f534c7784">)
 
 
 ---
